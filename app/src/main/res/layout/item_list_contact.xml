@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:backgroundTint="#de65e4"
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="match_parent"
+                        android:text="Mya Mya"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:id="@+id/txtPhone"
+                        android:layout_width="match_parent"
+                        android:text="09 8765443"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="italic"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:text="MICT"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
